@@ -1,0 +1,33 @@
+### Send POST request with json body
+POST http://localhost:8080/transaction/use
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "accountNumber": "1000000000",
+  "amount": 12345
+}
+### Send POST request with json body
+POST http://localhost:8080/transaction/use
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "accountNumber": "1000000000",
+  "amount": 12345
+}
+
+### Send POST request with json body
+POST http://localhost:8080/transaction/cancel
+Content-Type: application/json
+
+{
+  "transactionId": "f618ae96096846ce80ad74f7e4f00ce6",
+  "accountNumber": "1000000000",
+  "amount": 12345
+}
+
+### Send GET request with json body
+GET http://localhost:8080/transaction/4980b332f26e490986afb9eca6b27d33
+Content-Type: application/json
+
